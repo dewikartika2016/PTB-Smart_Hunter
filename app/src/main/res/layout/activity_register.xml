@@ -13,6 +13,7 @@
         android:layout_width="293dp"
         android:layout_height="54dp"
         android:layout_marginTop="12dp"
+        android:background="@drawable/border"
         android:drawableEnd="@drawable/ic_baseline_person_24"
         android:hint="e-mail"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,8 +25,9 @@
         android:id="@+id/textInputusername"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="293dp"
-        android:layout_height="46dp"
+        android:layout_height="48dp"
         android:layout_marginTop="16dp"
+        android:background="@drawable/border"
         android:drawableEnd="@drawable/ic_baseline_person_24"
         android:hint="username"
         app:layout_constraintEnd_toEndOf="@+id/textInputemail"
@@ -37,8 +39,10 @@
         android:layout_width="293dp"
         android:layout_height="50dp"
         android:layout_marginTop="16dp"
+        android:background="@drawable/border"
         android:drawableEnd="@drawable/ic_baseline_remove_red_eye_24"
         android:hint="password"
+        android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="@+id/textInputusername"
         app:layout_constraintTop_toBottomOf="@+id/textInputusername" />
 
@@ -48,8 +52,10 @@
         android:layout_width="293dp"
         android:layout_height="50dp"
         android:layout_marginTop="16dp"
+        android:background="@drawable/border"
         android:drawableEnd="@drawable/ic_baseline_remove_red_eye_24"
         android:hint="confirm password"
+        android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="@+id/textInputPassword"
         app:layout_constraintTop_toBottomOf="@+id/textInputPassword" />
 
@@ -71,6 +77,7 @@
         android:layout_height="63dp"
         android:layout_marginTop="24dp"
         android:backgroundTint="#050522"
+        android:onClick="toFavorite"
         android:text="Next"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
@@ -80,14 +87,15 @@
 
     <TextView
         android:id="@+id/textViewToLogin"
-        android:layout_width="44dp"
-        android:layout_height="21dp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:layout_marginEnd="12dp"
+        android:onClick="toLogin"
         android:text="Login"
         android:textColor="#F42F2F"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="@+id/buttonnext"
-        tools:layout_editor_absoluteY="524dp" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonnext" />
 
     <TextView
         android:id="@+id/textView"
@@ -97,6 +105,6 @@
         android:text="Already have account?"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@+id/buttonnext"
-        tools:layout_editor_absoluteY="524dp" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonnext" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

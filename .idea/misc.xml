@@ -3,11 +3,50 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/drawable/border.xml" value="0.16885964912280702" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/drawable/border1.xml" value="0.16885964912280702" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/drawable/color_selector.xml" value="0.16885964912280702" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/drawable/ic_baseline_access_time_24.xml" value="0.16885964912280702" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/drawable/ic_baseline_add_circle_outline_50.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/drawable/ic_baseline_calendar_today_24.xml" value="0.16885964912280702" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.16885964912280702" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.16885964912280702" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/drawable/nav_item_color_state.xml" value="0.16885964912280702" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/font/risque.xml" value="0.18070175438596492" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/layout/activity_detail_seminar.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/layout/activity_detail_webinar.xml" value="0.1" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/layout/activity_favorite.xml" value="0.22" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/layout/activity_home.xml" value="0.15526315789473685" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/layout/activity_login.xml" value="0.15526315789473685" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/layout/activity_main.xml" value="0.1703125" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/layout/activity_register.xml" value="0.15526315789473685" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/layout/activity_login.xml" value="0.6" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/layout/activity_maps.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/layout/activity_maps1.xml" value="0.15526315789473685" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/layout/activity_post.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/layout/activity_post_seminar.xml" value="0.14090019569471623" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/layout/activity_post_webinar.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/layout/activity_profil.xml" value="0.15526315789473685" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/layout/activity_register.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/layout/activity_scrolling.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/menu/bottom_nav.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/menu/menu_scrolling.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ptb_tb/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/ptb_tb/app/src/main/res/drawable/border.xml" value="0.22763157894736843" />
+        <entry key="..\:/ptb_tb/app/src/main/res/drawable/color_selector.xml" value="0.22763157894736843" />
+        <entry key="..\:/ptb_tb/app/src/main/res/layout/activity_detail_seminar.xml" value="0.17844202898550723" />
+        <entry key="..\:/ptb_tb/app/src/main/res/layout/activity_detail_webinar.xml" value="0.17844202898550723" />
+        <entry key="..\:/ptb_tb/app/src/main/res/layout/activity_favorite.xml" value="0.17105263157894737" />
+        <entry key="..\:/ptb_tb/app/src/main/res/layout/activity_home.xml" value="0.17844202898550723" />
+        <entry key="..\:/ptb_tb/app/src/main/res/layout/activity_login.xml" value="0.17844202898550723" />
+        <entry key="..\:/ptb_tb/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/ptb_tb/app/src/main/res/layout/activity_post.xml" value="0.264" />
+        <entry key="..\:/ptb_tb/app/src/main/res/layout/activity_post_seminar.xml" value="0.17844202898550723" />
+        <entry key="..\:/ptb_tb/app/src/main/res/layout/activity_post_webinar.xml" value="0.21403508771929824" />
+        <entry key="..\:/ptb_tb/app/src/main/res/layout/activity_profil.xml" value="0.17844202898550723" />
+        <entry key="..\:/ptb_tb/app/src/main/res/layout/activity_register.xml" value="0.21403508771929824" />
+        <entry key="..\:/ptb_tb/app/src/main/res/menu/bottom_nav.xml" value="0.21403508771929824" />
       </map>
     </option>
   </component>

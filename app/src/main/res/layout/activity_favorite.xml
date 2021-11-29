@@ -12,14 +12,15 @@
         android:id="@+id/buttonRegist"
         android:layout_width="208dp"
         android:layout_height="61dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="24dp"
         android:backgroundTint="#050522"
+        android:onClick="toHome"
         android:text="Register"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkedTextWirausaha" />
+        app:layout_constraintTop_toBottomOf="@+id/checkBox4" />
 
     <TextView
         android:id="@+id/textView4"
@@ -42,105 +43,89 @@
         app:layout_constraintStart_toStartOf="@+id/textView4"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
-    <CheckedTextView
-        android:id="@+id/checkedTextKesehatan"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:layout_width="129dp"
-        android:layout_height="36dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="16dp"
-        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
-        android:gravity="center"
-        android:text=" + Kesehatan"
-        android:textSize="12sp"
-        app:layout_constraintStart_toStartOf="parent"
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="132dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border"
+        android:text="Kesehatan"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
-    <CheckedTextView
-        android:id="@+id/checkedTextPend"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:layout_width="129dp"
-        android:layout_height="36dp"
-        android:layout_marginStart="24dp"
-        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
-        android:gravity="center"
-        android:text=" + Pendidikan"
-        android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.047"
-        app:layout_constraintStart_toEndOf="@+id/checkedTextKesehatan"
-        tools:layout_editor_absoluteY="125dp" />
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="132dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border"
+        android:text="Sosial Budaya"
+        app:layout_constraintEnd_toEndOf="@+id/checkBox3"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox3" />
 
-    <CheckedTextView
-        android:id="@+id/checkedTextPolitik"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:layout_width="129dp"
-        android:layout_height="36dp"
-        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
-        android:gravity="center"
-        android:text=" + Politik"
-        android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="@+id/checkedTextPend"
-        tools:layout_editor_absoluteY="182dp" />
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="132dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border"
+        android:text="Kewirausahaan"
+        app:layout_constraintEnd_toEndOf="@+id/checkBox2"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
 
-    <CheckedTextView
-        android:id="@+id/checkedTextKeuangan"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:layout_width="129dp"
-        android:layout_height="36dp"
-        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
-        android:gravity="center"
-        android:text=" + Keuangan"
-        android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="@+id/checkedTextPolitik"
-        tools:layout_editor_absoluteY="233dp" />
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="132dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border"
+        android:text="Pengembangan Diri"
+        app:layout_constraintStart_toEndOf="@+id/checkBox4"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox6" />
 
-    <CheckedTextView
-        android:id="@+id/checkedTextDiri"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:layout_width="129dp"
-        android:layout_height="36dp"
-        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
-        android:gravity="center"
-        android:text=" + Pengembangan Diri"
-        android:textSize="10sp"
-        app:layout_constraintEnd_toEndOf="@+id/checkedTextKeuangan"
-        tools:layout_editor_absoluteY="288dp" />
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="132dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border"
+        android:text="Keuangan"
+        app:layout_constraintStart_toEndOf="@+id/checkBox2"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox7" />
 
-    <CheckedTextView
-        android:id="@+id/checkedTextTeknologi"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:layout_width="129dp"
-        android:layout_height="36dp"
-        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
-        android:gravity="center"
-        android:text=" + Teknologi"
-        android:textSize="12sp"
-        app:layout_constraintStart_toStartOf="@+id/checkedTextKesehatan"
-        tools:layout_editor_absoluteY="182dp" />
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="132dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border"
+        android:text="Politik"
+        app:layout_constraintStart_toEndOf="@+id/checkBox3"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox8" />
 
-    <CheckedTextView
-        android:id="@+id/checkedTextSosbud"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:layout_width="129dp"
-        android:layout_height="36dp"
-        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
-        android:gravity="center"
-        android:text=" + Sosial Budaya"
-        android:textSize="12sp"
-        app:layout_constraintStart_toStartOf="@+id/checkedTextKesehatan"
-        tools:layout_editor_absoluteY="233dp" />
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="132dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/border"
+        android:text="Pendidikan"
+        app:layout_constraintStart_toEndOf="@+id/checkBox"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
-    <CheckedTextView
-        android:id="@+id/checkedTextWirausaha"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:layout_width="129dp"
-        android:layout_height="36dp"
-        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
-        android:gravity="center"
-        android:text=" + Kewirausahaan"
-        android:textSize="12sp"
-        app:layout_constraintStart_toStartOf="@+id/checkedTextSosbud"
-        tools:layout_editor_absoluteY="288dp" />
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="132dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border"
+        android:text="Teknologi"
+        app:layout_constraintEnd_toEndOf="@+id/checkBox"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
